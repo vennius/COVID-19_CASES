@@ -1,6 +1,5 @@
 <h1 align="center">SCxoneZ<br></h1>
 <p align="center">
-<img src="https://i.ibb.co/YDYS80p/zero.jpg" />
 </p>
 
 <p align="center">
