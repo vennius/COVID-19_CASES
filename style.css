@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Readex+Pro:wght@300&display=swap');
+
+body{
+  background-color: #878787;
+  font-family: Dongle;
+}
+
+form label {
+  font-family: arial;
+  font-weight: bold;
+}
+
+form button{
+  position: relative;
+  left: 10px;
+}
+
+.confirmed,.recovered,.deaths{
+  width: 250px;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  position: relative;
+  top: 15px;
+}
+
+.container-value{
+  /*position: relative;
+  top: 35px;
+  left: 100px;*/
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #eb5c5c;
+}
+
+.value{
+  font-size: 50px;
+  color: black;
+}
+
+.confirmed{
+  background-color: #87e487;
+}
+
+.recovered{
+  background-color: #e8e87e;
+}
+
+.deaths{
+  background-color: #ec6666;
+}
+
+.confirmed .icon{
+  background-image: url("img/confirmed.png");
+  background-size: cover;
+}
+
+.recovered .icon{
+  background-image: url("img/recovered.png");
+  background-size: cover;
+}
+
+.deaths .icon{
+  background-image: url("img/deaths.png");
+  background-size: cover;
+}
+
+.deaths .container-value{
+  color: #ed3621;
+}
+
+.footer{
+  width: 100%;
+  height: 35px;
+  background: #5ed3f1;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  font-weight: italic;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.author-api{
+  font-weight: bold;
+}
