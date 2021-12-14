@@ -52,7 +52,7 @@ form button{
 }
 
 .value{
-  animation: value 2s ease infinite play;
+  transition: opacity 3s;
   font-size: 50px;
   color: black;
   transition: 1s;
