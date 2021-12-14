@@ -54,6 +54,7 @@ form button{
 .value{
   font-size: 50px;
   color: black;
+  transition: 1s;
 }
 
 .confirmed{
