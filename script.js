@@ -36,7 +36,7 @@ btn.addEventListener('click', () => {
         confirmed.textContent = data.confirmed.value;
         recovered.textContent = data.confirmed.value - data.deaths.value;
         deaths.textContent = data.deaths.value;
-        miniAlert('Invalid Country!', 'danger');
+        miniAlert('Berhasil Mengambil Data Dari Negara '+input.value+'...', 'primary');
         
       }
       
