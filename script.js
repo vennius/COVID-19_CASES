@@ -2,6 +2,7 @@
 
 const input = document.querySelector('.input-negara');
 const btn = document.querySelector('.btn-search');
+const alertPlaceholder = document.querySelector('.alert-placeholder');
 
 const confirmed = document.querySelector('.confirmed .value');
 const recovered = document.querySelector('.recovered .value');
@@ -26,14 +27,27 @@ btn.addEventListener('click', () => {
     .then(data => {
       
       if(data.error){
-        alert('Negara Tidak Ditemukan!');
+        
+        miniAlert('Invalid Country!', 'danger');
+        
       }else{
         //console.log(data);
         //console.log(data.confirmed.value);
         confirmed.textContent = data.confirmed.value;
         recovered.textContent = data.confirmed.value - data.deaths.value;
         deaths.textContent = data.deaths.value;
+        miniAlert('Invalid Country!', 'danger');
+        
       }
+      
+      
+      
+    function miniAlert(message, type) {
+        alertPlaceholder.innerHTML = '<div class=" alert alert-' + type + ' alert-dismissible" role="alert">' + message + '</div>';
+        /*setTimeout(function(){
+          wraper.innerHTML = '';
+        }, 3000);*/
+    }
       
     })
     .catch(err => console.log(err));
