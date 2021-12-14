@@ -28,7 +28,7 @@ btn.addEventListener('click', () => {
       
       if(data.error){
         
-        miniAlert('Invalid Country!', 'danger');
+        miniAlert(`Negara "${negara}" Tidak Ditemukan!`, 'danger');
         
       }else{
         //console.log(data);
