@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Readex+Pro:wght@300&display=swap');
 
+@keyframes alert{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 25px;
+  }
+}
+
 body{
   background-color: #878787;
   font-family: Dongle;
@@ -88,6 +97,10 @@ form button{
   font-weight: italic;
   line-height: 35px;
   font-size: 20px;
+}
+
+.alert-info{
+  animation: alert 0.3s ease 1 both running;
 }
 
 .author-api{
