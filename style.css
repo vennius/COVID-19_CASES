@@ -53,7 +53,7 @@ form button{
 
 .value{
   transition: opacity 3s;
-  font-size: 100px;
+  font-size: 50px;
   color: black;
   transition: 1s;
 }
@@ -98,7 +98,7 @@ form button{
   text-align: center;
   font-weight: italic;
   line-height: 35px;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 
