@@ -46,7 +46,7 @@ btn.addEventListener('click', () => {
         alertPlaceholder.innerHTML = '<div class="alert-info alert alert-' + type + ' alert-dismissible" role="alert">' + message + '</div>';
         setTimeout(function(){
           alertPlaceholder.innerHTML = '';
-        }, 3000);
+        }, 4000);
     }
       
     })
