@@ -99,9 +99,6 @@ form button{
   font-size: 20px;
 }
 
-.alert-info{
-  animation: alert 2s ease 1 both running;
-}
 
 .author-api{
   font-weight: bold;
