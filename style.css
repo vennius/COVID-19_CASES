@@ -105,3 +105,8 @@ form button{
 .author-api{
   font-weight: bold;
 }
+
+.btn-search{
+  width: 70px;
+  height: 25px;
+}
