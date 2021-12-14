@@ -1,4 +1,5 @@
 // https://covid19.mathdro.id/api/countries/indonesia
+// https://covid19.mathdro.id/api/countries/indonesia
 
 const input = document.querySelector('.input-negara');
 const btn = document.querySelector('.btn-search');
@@ -43,7 +44,7 @@ btn.addEventListener('click', () => {
       
       
     function miniAlert(message, type) {
-        alertPlaceholder.innerHTML = '<div class="alert-info alert alert-' + type + ' alert-dismissible" role="alert">' + message + '</div>';
+        alertPlaceholder.innerHTML = '<div class="alert-info alert alert-' + type + ' alert-dismissible fs-3" role="alert">' + message + '</div>';
         setTimeout(function(){
           alertPlaceholder.innerHTML = '';
         }, 4000);
