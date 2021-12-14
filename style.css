@@ -100,7 +100,7 @@ form button{
 }
 
 .alert-info{
-  animation: alert 0.3s ease 1 both running;
+  animation: alert 2s ease 1 both running;
 }
 
 .author-api{
