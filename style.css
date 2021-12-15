@@ -110,3 +110,7 @@ form button{
   width: 70px;
   height: 35px;
 }
+
+.alert-info{
+  font-size: 20px;
+}
